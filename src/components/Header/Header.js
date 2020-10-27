@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div>
             <header>
-                <h1>Welcome to Ghilbi Listing</h1>
+                <h1>Welcome to the Ghilbi Film Directory</h1>
             </header>
             <nav>
                 <Link to="/">Home Page</Link>
