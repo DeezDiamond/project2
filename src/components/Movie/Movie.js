@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 
-const filmURL = 'https://ghibliapi.herokuapp.com/films';
+const filmURL = 'https://ghibliapi.herokuapp.com/films/';
 
 const Movie = (props) => {
-    const [movie, setMovie] = useState(null); 
+    const [movie, setMovie] = useState(""); 
     useEffect(() => {
         const url=`${filmURL}${props.match.params.id}`;
 
@@ -14,13 +13,9 @@ const Movie = (props) => {
             setMovie(res);
         })
         .catch((err) => {
-            return("There appears to be a problem with Movie.js..");
+            console.log("There appears to be a problem with Movie.js..");
         });
     }, [props.match.params.id]);
-
-    if (!movie) {
-        return null;
-    }
 
     return (
         <div className="details">

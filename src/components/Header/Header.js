@@ -5,10 +5,10 @@ const Header = () => {
     return (
         <div>
             <header>
-                <h1>I'm the header</h1>
+                <h1>Welcome to Ghilbi Listing</h1>
             </header>
             <nav>
-                {/* <Link to "/">Home</Link> */}
+                <Link to="/">Home Page</Link>
             </nav>
             
         </div>

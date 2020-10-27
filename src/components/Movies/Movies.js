@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom"
-import Movie from "../Movie/Movie"
 
-
-const Movies = ({ movie }) => {
-
+const Movies = () => {
     const [films, setFilms] = useState([]);
 	const ghilbi = 'https://ghibliapi.herokuapp.com/films';
 
@@ -15,7 +12,7 @@ const Movies = ({ movie }) => {
 					setFilms(res);
 				})
 				.catch((err) => {
-					return 'There appears to be a problem with Movies.js...';
+					return('There appears to be a problem with Movies.js...');
 				});
 		}, []);
 
@@ -23,9 +20,9 @@ const Movies = ({ movie }) => {
         <section>
            {films.map((movie) => {
                return (
-                   <Link to={`/details/${movie.id}`} key={movie.id}>
+                   <Link to={`/films/${movie.id}`} key={movie.id}>
                        <div className="card">
-                           {movie.title}
+                         {movie.title}
                        </div>
                    </Link>
                )
