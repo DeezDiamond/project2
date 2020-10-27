@@ -1,10 +1,16 @@
 import React from 'react';
+import Movie from "../Movie/Movie"
 
 
-const Movies = () => {
+const Movies = ({ movie }) => {
+
+    
+
     return (
         <div>
-            <h1>The list of movies will be here</h1>
+           {movie.map((movie) => (
+               <Movie movie={movie} />
+           ))}
         </div>
     );
 };

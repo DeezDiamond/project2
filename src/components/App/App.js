@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Route, Link } from "react-router-dom"
-import './App.css';
 import Header from "../Header/Header"
 import Movies from '../Movies/Movies';
-import MovieInfo from '../MovieInfo/MovieInfo';
+import Movie from '../Movie/Movie';
 
 function App() {
 	const [movies, setMovies] = useState([])
@@ -14,14 +13,24 @@ function App() {
 		.then((res) => res.json()) 
 		.then((res) => {
 			setMovies(res);
-			}) 
+			})
+		.catch((err) => {
+			return("There appears to be a problem...")
+		}) 
 		}, 
 	[]);
 
 	return (
 		<div className='App'>
 			<Header />
-			<h1>There's nothing here</h1>
+			<Route 
+			path="/"
+			exact
+			render={() => {
+				return (<Movies movie={movies} />
+				);
+			}}
+		/>
 		</div>
 	);
 }

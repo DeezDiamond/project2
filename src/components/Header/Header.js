@@ -8,7 +8,7 @@ const Header = () => {
                 <h1>I'm the header</h1>
             </header>
             <nav>
-                <Link to "/">Home</Link>
+                {/* <Link to "/">Home</Link> */}
             </nav>
             
         </div>
