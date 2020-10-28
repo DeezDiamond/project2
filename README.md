@@ -26,6 +26,8 @@
 
 - Add a search bar so a movie viewer can search for a specific movie 
 
+- Incorperate an external link to where a viewer can watch a movie
+
 ## Wireframes
 
 ![wire frame for the application](https://media.git.generalassemb.ly/user/30672/files/0d686c80-16ae-11eb-9855-07c042c01ca9)
