@@ -20,10 +20,10 @@ const Movie = (props) => {
 	return (
 		<div className='details'>
 			<h2>Title: {movie.title}</h2>
-			<p>Released: {movie.release_date}</p>
-			<p>Directed by: {movie.director}</p>
-			<p>Producer: {movie.producer}</p>
-			<p>Summary: {movie.description}</p>
+			<p><strong>Released</strong>: {movie.release_date}</p>
+			<p><strong>Directed by</strong>: {movie.director}</p>
+			<p><strong>Producer</strong>: {movie.producer}</p>
+			<p><strong>Summary</strong>: <br /> {movie.description}</p>
 		</div>
 	);
 };

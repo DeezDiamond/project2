@@ -16,7 +16,7 @@ code {
 }
 
 header {
-	background-color: #ffffff;
+	background-color: #CDB3BC;
 	text-align: center;
 	height: 8vh;
 	padding-top: 10px;
@@ -27,7 +27,7 @@ header h1 {
 }
 
 .cardHolder {
-	background-color: rgb(194, 102, 22);
+	background-color: #8F6372;
 	display: grid;
 	width: 55vh;
 	height: 55vh;
@@ -38,8 +38,8 @@ header h1 {
 }
 
 .card {
-	background-color: peachpuff;
-	border: 3px solid rgb(226, 88, 111);
+	background-color: #EADDE1;
+	border: 3px solid #724353;
 	border-radius: 15px;
 	/* margin: 1px; */
 	padding-top: 3vh;
@@ -50,8 +50,8 @@ header h1 {
 }
 
 .details {
-	background-color: peachpuff;
-	border: 1px solid rgb(226, 88, 111);
+	background-color: #EADDE1;
+	border: 1px solid#724353;
 	padding: 1rem;
 	width: 400px;
 	margin: auto;
@@ -59,5 +59,5 @@ header h1 {
 
 .details h2 {
 	font-weight: 400;
-	background-color: peru;
+	background-color: #CDB3BC;
 }
