@@ -18,22 +18,35 @@ code {
 header {
 	background-color: #ffffff;
 	text-align: center;
+	height: 8vh;
+	padding-top: 10px;
+}
+
+header h1 {
+	line-height: 5px;
 }
 
 .cardHolder {
 	background-color: rgb(194, 102, 22);
-	display: flex;
-	width: 50vh;
-	height: 50vh;
+	display: grid;
+	width: 55vh;
+	height: 55vh;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
 	margin: auto;
+	padding: 2px;
 }
 
 .card {
 	background-color: peachpuff;
-	border: 1px solid rgb(226, 88, 111);
-	margin: 5px;
-	width: 10vh;
-	height: 10vh;
+	border: 3px solid rgb(226, 88, 111);
+	border-radius: 15px;
+	/* margin: 1px; */
+	padding-top: 3vh;
+	width: 13vh;
+	height: 7vh;
+	text-align: center;
+	/* font-size: 1em; */
 }
 
 .details {

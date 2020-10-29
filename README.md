@@ -24,8 +24,6 @@
 
 ## Stretch Goals 
 
-- Add a search bar so a movie viewer can search for a specific movie 
-
 - Incorperate an external link to where a viewer can watch a movie
 
 ## Wireframes
