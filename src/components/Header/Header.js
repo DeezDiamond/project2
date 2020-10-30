@@ -7,7 +7,7 @@ const Header = () => {
 			<header>
 				<h1>Welcome to the Ghilbi Film Directory</h1>
 				<nav>
-					<Link to='/'>Home Page</Link>
+					<Link to='/'>Home Page</Link> <strong>|</strong> <Link to="/species/">Species</Link>
 				</nav>
 			</header>
 		</div>
