@@ -26,6 +26,8 @@
 
 - Incorperate an external link to where a viewer can watch a movie
 
+- Incorperate a second part to the site containing list of species found in movies
+
 ## Wireframes
 
 ![wire frame for the application](https://media.git.generalassemb.ly/user/30672/files/0d686c80-16ae-11eb-9855-07c042c01ca9)
